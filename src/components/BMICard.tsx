@@ -5,8 +5,8 @@ import { calculateBodyMassIndex } from '@/lib/utils/calculate-bmi';
 import { UnitSystem } from '@/types/unit-system';
 
 export default function BMICard() {
-  let [unitSystem, setUnitSystem] = useState(UnitSystem.METRIC);
-  let [metric, setMetric] = useState({
+  const [unitSystem, setUnitSystem] = useState(UnitSystem.METRIC);
+  const [metric, setMetric] = useState({
     kg: 0,
     cm: 0,
     st: 0,
@@ -14,7 +14,7 @@ export default function BMICard() {
     ft: 0,
     in: 0,
   });
-  let [bmiResult, setBmiResult] = useState({ bmi: '0', summary: '' });
+  const [bmiResult, setBmiResult] = useState({ bmi: '0', summary: '' });
 
   const radioValue = [
     {
