@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/rizkicaandra/password-generator-app)
-- Live Site URL: [Live Demo](https://magnificent-tartufo-976891.netlify.app/)
+- Live Site URL: [Live Demo](https://fastidious-marshmallow-311942.netlify.app/)
 
 ## My process
 
